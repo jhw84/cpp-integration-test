@@ -10,18 +10,27 @@ import Cocoa
 
 class ViewController: NSViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    func dialogOK(Title: String, text: String) -> Bool {
+        let myPopup: NSAlert = NSAlert()
+        myPopup.messageText = Title
+        myPopup.informativeText = text
+        myPopup.alertStyle = NSAlertStyle.warning
+        myPopup.addButton(withTitle: "OK")
+        //myPopup.addButtonWithTitle("Cancel")
+        myPopup.runModal()
+        return true
     }
-
-    override var representedObject: Any? {
-        didSet {
-        // Update the view, if already loaded.
+    
+    @IBOutlet weak var outputField: NSTextField!
+    @IBOutlet weak var inputField: NSTextField!
+    @IBAction func hitCompute(_ sender: NSButton) {
+        if let inputVal:Int32 = Int32(inputField.stringValue) {
+            outputField.stringValue = "\(getResultFromCPP(inputVal))"
+        } else {
+            dialogOK(Title: "Invalid value: \(inputField.stringValue)",text: "Please enter a numeric value.")
         }
+        //print("test \(getResultFromCPP(1))")
     }
-
 
 }
 
