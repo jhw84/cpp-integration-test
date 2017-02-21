@@ -27,7 +27,7 @@ class ViewController: NSViewController {
         if let inputVal:Int32 = Int32(inputField.stringValue) {
             outputField.stringValue = "\(getResultFromCPP(inputVal))"
         } else {
-            dialogOK(Title: "Invalid value: \(inputField.stringValue)",text: "Please enter a numeric value.")
+            _ = dialogOK(Title: "Invalid value: \(inputField.stringValue)",text: "Please enter a numeric value.")
         }
         //print("test \(getResultFromCPP(1))")
     }
