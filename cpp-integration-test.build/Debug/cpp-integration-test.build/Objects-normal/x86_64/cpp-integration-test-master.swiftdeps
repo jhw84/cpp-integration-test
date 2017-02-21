@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "22defd370d18ce7ffa5d92debb02e10a"
+build_time: [541017310, 511167000]
+inputs:
+  "/Users/weijsjh/github/cpp-integration-test/cpp-integration-test/ViewController.swift": [541017296, 0]
+  "/Users/weijsjh/github/cpp-integration-test/cpp-integration-test/AppDelegate.swift": [541017296, 0]

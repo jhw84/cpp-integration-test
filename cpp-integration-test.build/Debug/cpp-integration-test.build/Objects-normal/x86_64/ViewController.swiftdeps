@@ -1,0 +1,459 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C20cpp_integration_test14ViewController"
+provides-member:
+- ["C20cpp_integration_test14ViewController", ""]
+provides-dynamic-lookup:
+- "outputField"
+- "inputField"
+- "dialogOK"
+- "hitCompute"
+depends-top-level:
+- !private "getResultFromCPP"
+- "Bool"
+- !private "StringLiteralType"
+- "NSTextField"
+- "NSButton"
+- "ViewController"
+- !private "BooleanLiteralType"
+- !private "NSAlertStyle"
+- "String"
+- !private "NSAlert"
+- "NSViewController"
+- "AssignmentPrecedence"
+- !private "Int32"
+depends-member:
+- !private ["Ps9AnyObject", "Int32"]
+- !private ["Ps9AnyObject", "NSAlert"]
+- !private ["Ps9AnyObject", "NSAlertStyle"]
+- !private ["Ps9AnyObject", "addButton"]
+- !private ["Ps9AnyObject", "alertStyle"]
+- ["Ps9AnyObject", "dialogOK"]
+- !private ["Ps9AnyObject", "getResultFromCPP"]
+- ["Ps9AnyObject", "hitCompute"]
+- !private ["Ps9AnyObject", "informativeText"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "inputField"]
+- !private ["Ps9AnyObject", "messageText"]
+- ["Ps9AnyObject", "outputField"]
+- !private ["Ps9AnyObject", "runModal"]
+- !private ["Ps9AnyObject", "stringValue"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "init"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Int32"]
+- !private ["Ps7CVarArg", "NSAlert"]
+- !private ["Ps7CVarArg", "NSAlertStyle"]
+- !private ["Ps7CVarArg", "addButton"]
+- !private ["Ps7CVarArg", "alertStyle"]
+- ["Ps7CVarArg", "dialogOK"]
+- !private ["Ps7CVarArg", "getResultFromCPP"]
+- ["Ps7CVarArg", "hitCompute"]
+- !private ["Ps7CVarArg", "informativeText"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "inputField"]
+- !private ["Ps7CVarArg", "messageText"]
+- ["Ps7CVarArg", "outputField"]
+- !private ["Ps7CVarArg", "runModal"]
+- !private ["Ps7CVarArg", "stringValue"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Int32"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAlert"]
+- !private ["Ps28CustomDebugStringConvertible", "NSAlertStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "addButton"]
+- !private ["Ps28CustomDebugStringConvertible", "alertStyle"]
+- ["Ps28CustomDebugStringConvertible", "dialogOK"]
+- !private ["Ps28CustomDebugStringConvertible", "getResultFromCPP"]
+- ["Ps28CustomDebugStringConvertible", "hitCompute"]
+- !private ["Ps28CustomDebugStringConvertible", "informativeText"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "inputField"]
+- !private ["Ps28CustomDebugStringConvertible", "messageText"]
+- ["Ps28CustomDebugStringConvertible", "outputField"]
+- !private ["Ps28CustomDebugStringConvertible", "runModal"]
+- !private ["Ps28CustomDebugStringConvertible", "stringValue"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Int32"]
+- !private ["Ps23CustomStringConvertible", "NSAlert"]
+- !private ["Ps23CustomStringConvertible", "NSAlertStyle"]
+- !private ["Ps23CustomStringConvertible", "addButton"]
+- !private ["Ps23CustomStringConvertible", "alertStyle"]
+- ["Ps23CustomStringConvertible", "dialogOK"]
+- !private ["Ps23CustomStringConvertible", "getResultFromCPP"]
+- ["Ps23CustomStringConvertible", "hitCompute"]
+- !private ["Ps23CustomStringConvertible", "informativeText"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "inputField"]
+- !private ["Ps23CustomStringConvertible", "messageText"]
+- ["Ps23CustomStringConvertible", "outputField"]
+- !private ["Ps23CustomStringConvertible", "runModal"]
+- !private ["Ps23CustomStringConvertible", "stringValue"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Int32"]
+- !private ["Ps9Equatable", "NSAlert"]
+- !private ["Ps9Equatable", "NSAlertStyle"]
+- !private ["Ps9Equatable", "addButton"]
+- !private ["Ps9Equatable", "alertStyle"]
+- ["Ps9Equatable", "dialogOK"]
+- !private ["Ps9Equatable", "getResultFromCPP"]
+- ["Ps9Equatable", "hitCompute"]
+- !private ["Ps9Equatable", "informativeText"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "inputField"]
+- !private ["Ps9Equatable", "messageText"]
+- ["Ps9Equatable", "outputField"]
+- !private ["Ps9Equatable", "runModal"]
+- !private ["Ps9Equatable", "stringValue"]
+- !private ["Ps9Equatable", "warning"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Int32"]
+- !private ["Ps8Hashable", "NSAlert"]
+- !private ["Ps8Hashable", "NSAlertStyle"]
+- !private ["Ps8Hashable", "addButton"]
+- !private ["Ps8Hashable", "alertStyle"]
+- ["Ps8Hashable", "dialogOK"]
+- !private ["Ps8Hashable", "getResultFromCPP"]
+- ["Ps8Hashable", "hitCompute"]
+- !private ["Ps8Hashable", "informativeText"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "inputField"]
+- !private ["Ps8Hashable", "messageText"]
+- ["Ps8Hashable", "outputField"]
+- !private ["Ps8Hashable", "runModal"]
+- !private ["Ps8Hashable", "stringValue"]
+- !private ["Ps8Hashable", "warning"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- ["Vs5Int32", "deinit"]
+- !private ["Vs5Int32", "init"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo15NSAccessibility", "stringValue"]
+- !private ["PSo30NSAccessibilityElementProtocol", "stringValue"]
+- !private ["PSo34NSAccessibilityNavigableStaticText", "stringValue"]
+- !private ["PSo25NSAccessibilityStaticText", "stringValue"]
+- !private ["CSo7NSAlert", "addButton"]
+- !private ["CSo7NSAlert", "alertStyle"]
+- ["CSo7NSAlert", "deinit"]
+- !private ["CSo7NSAlert", "informativeText"]
+- !private ["CSo7NSAlert", "init"]
+- !private ["CSo7NSAlert", "messageText"]
+- !private ["CSo7NSAlert", "runModal"]
+- ["OSC12NSAlertStyle", "deinit"]
+- !private ["OSC12NSAlertStyle", "warning"]
+- !private ["PSo29NSAnimatablePropertyContainer", "stringValue"]
+- !private ["PSo25NSAppearanceCustomization", "stringValue"]
+- ["CSo8NSButton", "deinit"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "Int32"]
+- !private ["PSo8NSCoding", "NSAlert"]
+- !private ["PSo8NSCoding", "NSAlertStyle"]
+- ["PSo8NSCoding", "dialogOK"]
+- !private ["PSo8NSCoding", "getResultFromCPP"]
+- ["PSo8NSCoding", "hitCompute"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "inputField"]
+- ["PSo8NSCoding", "outputField"]
+- !private ["PSo8NSCoding", "stringValue"]
+- ["PSo8NSCoding", ""]
+- !private ["CSo9NSControl", "stringValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo21NSDraggingDestination", "stringValue"]
+- !private ["PSo26NSExtensionRequestHandling", "Int32"]
+- !private ["PSo26NSExtensionRequestHandling", "NSAlert"]
+- !private ["PSo26NSExtensionRequestHandling", "NSAlertStyle"]
+- ["PSo26NSExtensionRequestHandling", "dialogOK"]
+- !private ["PSo26NSExtensionRequestHandling", "getResultFromCPP"]
+- ["PSo26NSExtensionRequestHandling", "hitCompute"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "inputField"]
+- ["PSo26NSExtensionRequestHandling", "outputField"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Int32"]
+- !private ["CSo8NSObject", "NSAlert"]
+- !private ["CSo8NSObject", "NSAlertStyle"]
+- ["CSo8NSObject", "NSButton"]
+- ["CSo8NSObject", "NSTextField"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "addButton"]
+- !private ["CSo8NSObject", "alertStyle"]
+- ["CSo8NSObject", "dialogOK"]
+- !private ["CSo8NSObject", "getResultFromCPP"]
+- ["CSo8NSObject", "hitCompute"]
+- !private ["CSo8NSObject", "informativeText"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "inputField"]
+- !private ["CSo8NSObject", "messageText"]
+- ["CSo8NSObject", "outputField"]
+- !private ["CSo8NSObject", "runModal"]
+- !private ["CSo8NSObject", "stringValue"]
+- !private ["PSo16NSObjectProtocol", "Int32"]
+- !private ["PSo16NSObjectProtocol", "NSAlert"]
+- !private ["PSo16NSObjectProtocol", "NSAlertStyle"]
+- !private ["PSo16NSObjectProtocol", "addButton"]
+- !private ["PSo16NSObjectProtocol", "alertStyle"]
+- ["PSo16NSObjectProtocol", "dialogOK"]
+- !private ["PSo16NSObjectProtocol", "getResultFromCPP"]
+- ["PSo16NSObjectProtocol", "hitCompute"]
+- !private ["PSo16NSObjectProtocol", "informativeText"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "inputField"]
+- !private ["PSo16NSObjectProtocol", "messageText"]
+- ["PSo16NSObjectProtocol", "outputField"]
+- !private ["PSo16NSObjectProtocol", "runModal"]
+- !private ["PSo16NSObjectProtocol", "stringValue"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo19NSPasteboardReading", "init"]
+- !private ["PSo19NSPasteboardWriting", "init"]
+- ["CSo11NSResponder", "Bool"]
+- !private ["CSo11NSResponder", "Int32"]
+- !private ["CSo11NSResponder", "NSAlert"]
+- !private ["CSo11NSResponder", "NSAlertStyle"]
+- ["CSo11NSResponder", "NSButton"]
+- ["CSo11NSResponder", "NSTextField"]
+- ["CSo11NSResponder", "String"]
+- ["CSo11NSResponder", "dialogOK"]
+- !private ["CSo11NSResponder", "getResultFromCPP"]
+- ["CSo11NSResponder", "hitCompute"]
+- ["CSo11NSResponder", "init"]
+- ["CSo11NSResponder", "inputField"]
+- ["CSo11NSResponder", "outputField"]
+- !private ["CSo11NSResponder", "stringValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo17NSSeguePerforming", "Int32"]
+- !private ["PSo17NSSeguePerforming", "NSAlert"]
+- !private ["PSo17NSSeguePerforming", "NSAlertStyle"]
+- ["PSo17NSSeguePerforming", "dialogOK"]
+- !private ["PSo17NSSeguePerforming", "getResultFromCPP"]
+- ["PSo17NSSeguePerforming", "hitCompute"]
+- !private ["PSo17NSSeguePerforming", "init"]
+- ["PSo17NSSeguePerforming", "inputField"]
+- ["PSo17NSSeguePerforming", "outputField"]
+- ["PSo17NSSeguePerforming", ""]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo11NSTextField", "stringValue"]
+- !private ["PSo18NSTouchBarProvider", "Int32"]
+- !private ["PSo18NSTouchBarProvider", "NSAlert"]
+- !private ["PSo18NSTouchBarProvider", "NSAlertStyle"]
+- ["PSo18NSTouchBarProvider", "dialogOK"]
+- !private ["PSo18NSTouchBarProvider", "getResultFromCPP"]
+- ["PSo18NSTouchBarProvider", "hitCompute"]
+- !private ["PSo18NSTouchBarProvider", "init"]
+- ["PSo18NSTouchBarProvider", "inputField"]
+- ["PSo18NSTouchBarProvider", "outputField"]
+- !private ["PSo18NSTouchBarProvider", "stringValue"]
+- ["PSo18NSTouchBarProvider", ""]
+- !private ["PSo33NSUserInterfaceItemIdentification", "Int32"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSAlert"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "NSAlertStyle"]
+- ["PSo33NSUserInterfaceItemIdentification", "dialogOK"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "getResultFromCPP"]
+- ["PSo33NSUserInterfaceItemIdentification", "hitCompute"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "init"]
+- ["PSo33NSUserInterfaceItemIdentification", "inputField"]
+- ["PSo33NSUserInterfaceItemIdentification", "outputField"]
+- !private ["PSo33NSUserInterfaceItemIdentification", "stringValue"]
+- ["PSo33NSUserInterfaceItemIdentification", ""]
+- !private ["PSo26NSUserInterfaceValidations", "stringValue"]
+- !private ["CSo6NSView", "stringValue"]
+- ["CSo16NSViewController", "Bool"]
+- !private ["CSo16NSViewController", "Int32"]
+- !private ["CSo16NSViewController", "NSAlert"]
+- !private ["CSo16NSViewController", "NSAlertStyle"]
+- ["CSo16NSViewController", "NSButton"]
+- ["CSo16NSViewController", "NSTextField"]
+- ["CSo16NSViewController", "String"]
+- ["CSo16NSViewController", "deinit"]
+- ["CSo16NSViewController", "dialogOK"]
+- !private ["CSo16NSViewController", "getResultFromCPP"]
+- ["CSo16NSViewController", "hitCompute"]
+- ["CSo16NSViewController", "init"]
+- ["CSo16NSViewController", "inputField"]
+- ["CSo16NSViewController", "outputField"]
+- ["CSo16NSViewController", ""]
+- ["Sq", "deinit"]
+- !private ["Ps16RawRepresentable", "warning"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["C20cpp_integration_test14ViewController", "Bool"]
+- !private ["C20cpp_integration_test14ViewController", "Int32"]
+- !private ["C20cpp_integration_test14ViewController", "NSAlert"]
+- !private ["C20cpp_integration_test14ViewController", "NSAlertStyle"]
+- ["C20cpp_integration_test14ViewController", "NSButton"]
+- ["C20cpp_integration_test14ViewController", "NSTextField"]
+- ["C20cpp_integration_test14ViewController", "String"]
+- ["C20cpp_integration_test14ViewController", "deinit"]
+- ["C20cpp_integration_test14ViewController", "dialogOK"]
+- !private ["C20cpp_integration_test14ViewController", "getResultFromCPP"]
+- ["C20cpp_integration_test14ViewController", "hitCompute"]
+- ["C20cpp_integration_test14ViewController", "init"]
+- ["C20cpp_integration_test14ViewController", "inputField"]
+- ["C20cpp_integration_test14ViewController", "outputField"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "stringValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Int32"]
+- !private ["Ps9_Hashable", "NSAlert"]
+- !private ["Ps9_Hashable", "NSAlertStyle"]
+- !private ["Ps9_Hashable", "addButton"]
+- !private ["Ps9_Hashable", "alertStyle"]
+- ["Ps9_Hashable", "dialogOK"]
+- !private ["Ps9_Hashable", "getResultFromCPP"]
+- ["Ps9_Hashable", "hitCompute"]
+- !private ["Ps9_Hashable", "informativeText"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "inputField"]
+- !private ["Ps9_Hashable", "messageText"]
+- ["Ps9_Hashable", "outputField"]
+- !private ["Ps9_Hashable", "runModal"]
+- !private ["Ps9_Hashable", "stringValue"]
+- !private ["Ps9_Hashable", "warning"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "Vs5Int16"
+- "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo15NSAccessibility"
+- !private "PSo30NSAccessibilityElementProtocol"
+- !private "PSo34NSAccessibilityNavigableStaticText"
+- !private "PSo25NSAccessibilityStaticText"
+- "CSo7NSAlert"
+- "OSC12NSAlertStyle"
+- !private "PSo29NSAnimatablePropertyContainer"
+- !private "PSo25NSAppearanceCustomization"
+- "CSo8NSButton"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "CSo9NSControl"
+- !private "PSo9NSCopying"
+- !private "PSo21NSDraggingDestination"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- "CSo11NSResponder"
+- !private "PSo14NSSecureCoding"
+- "PSo17NSSeguePerforming"
+- !private "CSo8NSString"
+- !private "CSo11NSTextField"
+- "PSo18NSTouchBarProvider"
+- "PSo33NSUserInterfaceItemIdentification"
+- !private "PSo26NSUserInterfaceValidations"
+- !private "CSo6NSView"
+- "CSo16NSViewController"
+- "Sq"
+- !private "Ps16RawRepresentable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "C20cpp_integration_test14ViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/weijsjh/github/cpp-integration-test/cpp-integration-test-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "9c88394404f2046ffd519041bdae5114"
