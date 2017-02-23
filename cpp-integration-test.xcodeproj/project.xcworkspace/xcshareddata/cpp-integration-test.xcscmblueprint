@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "631B1C3286AF5AD6B02886B8AFABE668009EAB1F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "631B1C3286AF5AD6B02886B8AFABE668009EAB1F" : 9223372036854775807,
+    "BB89E9F8B546B66741C79FDF01C1814A1BBDBB42" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "53DB3739-FCDF-44B9-B70D-C519E2FE6CC8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "631B1C3286AF5AD6B02886B8AFABE668009EAB1F" : "cpp-integration-test\/",
+    "BB89E9F8B546B66741C79FDF01C1814A1BBDBB42" : "openCL-test-cpp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "cpp-integration-test",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "cpp-integration-test.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jhw84\/cpp-integration-test.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "631B1C3286AF5AD6B02886B8AFABE668009EAB1F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jhw84\/openCL-test-cpp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BB89E9F8B546B66741C79FDF01C1814A1BBDBB42"
+    }
+  ]
+}

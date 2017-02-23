@@ -3,3 +3,4 @@
 //
 
 int getResultFromCPP(int in);
+int getResultFromCPP2(int in1,int in2);

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B14C6551E5EFBF2002187A9 /* libB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B14C6541E5EFBF2002187A9 /* libB.a */; };
+		6B14C6581E5EFD2C002187A9 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B14C6571E5EFD2C002187A9 /* OpenCL.framework */; };
 		6BBC5F1F1E5C62CB00283FD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC5F1E1E5C62CB00283FD2 /* AppDelegate.swift */; };
 		6BBC5F211E5C62CB00283FD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBC5F201E5C62CB00283FD2 /* ViewController.swift */; };
 		6BBC5F231E5C62CB00283FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BBC5F221E5C62CB00283FD2 /* Assets.xcassets */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B14C6541E5EFBF2002187A9 /* libB.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libB.a; path = "../openCL-test-cpp/libB.a"; sourceTree = "<group>"; };
+		6B14C6561E5EFC3F002187A9 /* B.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = B.hpp; path = "cpp-source/B.hpp"; sourceTree = "<group>"; };
+		6B14C6571E5EFD2C002187A9 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
 		6BBC5F1B1E5C62CB00283FD2 /* cpp-integration-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cpp-integration-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BBC5F1E1E5C62CB00283FD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BBC5F201E5C62CB00283FD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B14C6581E5EFD2C002187A9 /* OpenCL.framework in Frameworks */,
+				6B14C6551E5EFBF2002187A9 /* libB.a in Frameworks */,
 				6BBC5F4B1E5C64BB00283FD2 /* libA.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				6BBC5F4C1E5C64E900283FD2 /* A.hpp */,
+				6B14C6561E5EFC3F002187A9 /* B.hpp */,
 				6BBC5F4E1E5C651D00283FD2 /* wrapper.cpp */,
 				6BBC5F1D1E5C62CB00283FD2 /* cpp-integration-test */,
 				6BBC5F2F1E5C62CC00283FD2 /* cpp-integration-testTests */,
@@ -136,6 +144,8 @@
 		6BBC5F491E5C64BA00283FD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6B14C6571E5EFD2C002187A9 /* OpenCL.framework */,
+				6B14C6541E5EFBF2002187A9 /* libB.a */,
 				6BBC5F4A1E5C64BB00283FD2 /* libA.a */,
 			);
 			name = Frameworks;
@@ -427,6 +437,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/cpp-source",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "j.cpp-integration-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "cpp-integration-test-Bridging-Header.h";
@@ -447,6 +458,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/cpp-source",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "j.cpp-integration-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "cpp-integration-test-Bridging-Header.h";
